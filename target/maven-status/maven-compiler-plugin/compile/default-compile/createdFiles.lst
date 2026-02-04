@@ -1,0 +1,10 @@
+td\emma\roomreservationservice\client\guest\Guest.class
+td\emma\roomreservationservice\client\guest\GuestServiceClient.class
+td\emma\roomreservationservice\client\guest\GuestServiceFallback.class
+td\emma\roomreservationservice\client\reservation\ReservationServiceClient.class
+td\emma\roomreservationservice\api\RoomReservationController.class
+td\emma\roomreservationservice\api\RoomReservation.class
+td\emma\roomreservationservice\client\room\Room.class
+td\emma\roomreservationservice\RoomReservationServiceApplication.class
+td\emma\roomreservationservice\client\reservation\Reservation.class
+td\emma\roomreservationservice\client\room\RoomServiceClient.class

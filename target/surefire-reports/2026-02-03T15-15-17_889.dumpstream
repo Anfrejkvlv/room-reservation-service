@@ -1,0 +1,5 @@
+# Created at 2026-02-03T15:15:20.146
+Boot Manifest-JAR contains absolute paths in classpath 'E:\TUTO\Ex_Files_Spring_Cloud\Exercise Files\CH04\04_02\04_02_end\spring-cloud\room-reservation-service\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
