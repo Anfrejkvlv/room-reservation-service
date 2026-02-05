@@ -113,37 +113,37 @@ public class RoomReservationController {
     @PutMapping("/reservations/{reservationId}")
     public ResponseEntity<String> updateReservation(@PathVariable Long reservationId, @RequestBody Reservation reservation) {
         reservationServiceClient.updateReservation(reservationId, reservation);
-        return new ResponseEntity<>("Reservation successfully updated", HttpStatus.OK);
+        return ResponseEntity.ok("Reservation successfully updated");
     }
 
     @PutMapping("/rooms/{roomId}")
     public ResponseEntity<String> updateRoom(@PathVariable Long roomId, @RequestBody Room room) {
         roomServiceClient.updateRoom(roomId,room);
-        return new ResponseEntity<>("Room successfully updated", HttpStatus.OK);
+        return ResponseEntity.ok("Room successfully updated");
     }
 
     @PutMapping("/guests/{guestId}")
     public ResponseEntity<String> updateGuest(@PathVariable Long guestId, @RequestBody Guest guest) {
         guestServiceClient.updateGuest(guestId,guest);
-        return new ResponseEntity<>("Guest successfully updated",HttpStatus.OK);
+        return ResponseEntity.ok("Guest successfully updated");
     }
 
     @DeleteMapping("/reservations/{reservationId}")
     public ResponseEntity<String> deleteReservation(@PathVariable Long reservationId) {
         reservationServiceClient.deleteReservation(reservationId);
-        return new ResponseEntity<>("Reservation successfully deleted", HttpStatus.OK);
+        return ResponseEntity.ok("Reservation successfully deleted");
     }
 
     @DeleteMapping("/rooms/{roomId}")
     public ResponseEntity<String> updateRoom(@PathVariable Long roomId) {
         roomServiceClient.deleteRoom(roomId);
-        return new ResponseEntity<>("Room successfully deleted", HttpStatus.OK);
+        return ResponseEntity.ok("Room successfully deleted");
     }
 
     @DeleteMapping("/guests/{guestId}")
     public ResponseEntity<String> updateGuest(@PathVariable Long guestId) {
         guestServiceClient.deleteGuest(guestId);
-        return new ResponseEntity<>("Guest successfully deleted",HttpStatus.OK);
+        return ResponseEntity.ok("Guest successfully deleted");
     }
 
 
