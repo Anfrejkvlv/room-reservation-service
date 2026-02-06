@@ -39,6 +39,16 @@ Ce projet suit une architecture microservices avec les composants suivants :
                 └───────────────────────────┘
 ```
 
+## UI
+### Room reservation Interface
+![Interface de gestion](./images/room-reservation.png)
+### Room Interface
+![Interface de gestion](./images/room.png)
+![Interface de gestion](./images/update-room.png)
+### Reservation Interface
+![Interface de gestion](./images/reservation.png)
+### Guest Interface
+![Interface de gestion](./images/guest.png)
 ##  Microservices
 
 ### 1. **Config Server** (Port: 8888)
